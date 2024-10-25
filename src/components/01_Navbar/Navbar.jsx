@@ -7,7 +7,7 @@ import { RxCross2 } from "react-icons/rx";
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className={`${styles.navbar}`}>
+    <nav className={`${styles.navbar} justify-between  lg:justify-around`}>
       <div className="bg-white rounded-b-xl">
         <img src="./fanArtLogo.svg" />
       </div>

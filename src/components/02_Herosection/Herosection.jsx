@@ -6,7 +6,7 @@ import herosectionImg2 from "../../assets/herosectionImg2.svg";
 function Herosection() {
   return (
     <section
-      className={`relative w-full h-[720px] bg-gradient-to-r from-[#255e71] to-[#265f73] flex justify-center items-center gap-x-[50px]`}
+      className={`relative w-full min-h-[720px] xl-h-[720px] bg-gradient-to-r from-[#255e71] to-[#265f73] flex flex-wrap-reverse justify-center items-center gap-y-[50px]`}
     >
       <div class={styles.vectorShapeLeft} />
 
@@ -51,7 +51,7 @@ function Herosection() {
 
 
         {/* hidden lg:flex flex-col gap-y-[10px] relative z-10 */}
-        <div className={` relative z-10`}>
+        <div className={` relative z-10 `}>
           <img
             className={`${styles.herosectionImage2}`}
             src={herosectionImg2}

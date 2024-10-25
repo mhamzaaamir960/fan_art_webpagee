@@ -1,0 +1,139 @@
+.herosection {
+    position: relative;
+    gap: 0px 50px;
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(to right, #255e71, #265f73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vectorShapeLeft{
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background: radial-gradient(circle, #d0b638, rgba(255, 255, 255, 0));
+    filter: blur(150px);
+    z-index: 0;
+  }
+  .vectorShapeRight {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background: radial-gradient(circle, #2cc1f0, rgba(255, 255, 255, 0));
+    filter: blur(150px);
+    z-index: 0;
+  }
+  
+  .vectorShapeLeft {
+    position: absolute;
+    left: -200px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+  }
+  
+  .vectorShapeRight {
+    position: absolute;
+    right: -200px;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+  }
+  
+    .herosectionText {
+      max-width: 642px;
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 40px 0px;
+    }
+    
+    .herosectionTitle {
+      font-size: 48px;
+      color: white;
+      font-weight: bold;
+      line-height: 1.3;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .herosectionParagraph {
+      font-size: 18px;
+      width: 580px;
+      color: white;
+      font-weight: normal;
+      font-weight: normal;
+      line-height: auto;
+      margin: 0;
+      padding: 0;
+    }
+  
+  .btn {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.16px;
+    width: fit-content;
+    background-color: rgba(255, 199, 0, 0.5);
+    border-left: solid 4px rgba(255, 199, 0, 0.7);
+    border-right: solid 4px rgba(255, 199, 0, 0.7);
+    cursor: pointer;
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  /* Hero section image section */
+  /* .herosectionImages {
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+    position: relative;
+  } */
+  
+  /* .herosectionImageBlock1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px 0px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    border-left: none;
+    border-right: none;
+    border-radius: 30px;
+    background-color: inherit;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .herosectionCircleColor {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(
+      circle,
+      rgba(255, 204, 51, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    filter: blur(200px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+  
+  /* .herosectionImageBlock2 {
+    flex-direction: column;
+    gap: 10px 0px;
+    position: relative;
+    z-index: 10;
+  } */
